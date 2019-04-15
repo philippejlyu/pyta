@@ -13,7 +13,9 @@ patch_data = {
                        'explicitly write "return None" whenever None is returned by '
                        'this function. (Possibly including possibly at the end of the function body.)'
               }
-         }
+         },
+    'pylint.checkers.design_analysis':
+        {'MisdesignChecker': {'R0913': 'This function definition has too many parameters. (%s/%s)'}}
 }
 
 
